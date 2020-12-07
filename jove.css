@@ -1,0 +1,1289 @@
+html,body{
+	overflow-x: hidden;
+	width:100%;
+	background-color: #F5D0E2;
+	font-family: 'Permanent Marker', cursive;
+	padding:0;
+    margin:0 auto;
+}
+
+
+#header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.header {
+   padding: 0px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+}
+.header h1 {
+   margin: 0; padding: 0;
+   font-size: 40px;
+}
+.header a {	
+   text-decoration: none;
+   color: #fff;
+   cursor: pointer !important;
+}
+.header nav {
+   margin: 0 0 0 55%;
+}
+.header ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+.header li {
+   margin: 0 0 0 30px;
+   font-size: 20px;
+}
+.header a:hover {
+    color: deeppink;
+}
+
+.container{
+	width: 1000px;
+}
+
+.headerFirst{
+	position: relative;
+	bottom:100px;
+	right: 100px;
+	
+}
+
+.inkFirst{
+	position: absolute;
+	animation: SlideIn1 1.6s;
+}
+@keyframes SlideIn1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.inkSecond{
+	position: absolute;
+	animation: SlideIn2 1.6s;
+}
+@keyframes SlideIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.headerSecond{
+	position: relative;
+	z-index: 2;
+	bottom:400px;
+}
+
+.inkFirstDripping{
+	position: absolute;
+	top:150px;
+	animation: SlideIn4 1.6s 2.5s backwards;
+	z-index: 0;
+}
+@keyframes SlideIn4 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.inkSecondDripping{
+	position: absolute;
+	animation: SlideIn5 1.6s 2.0s backwards;
+	z-index: 3;
+}
+@keyframes SlideIn5 {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.headerBottom{
+	float: left;
+	margin-top: 230px;
+}
+
+.big {
+	height:301px;
+	width:2836px;
+}
+
+.headerBottomFirst{
+	position: relative;
+	right: 100px;
+	z-index: 1;
+}
+
+.headerBottomSecond{
+	position: relative;
+	bottom:350px;
+	z-index: 0;
+}
+
+.hBFF{
+	position: relative;
+	bottom: 120px;
+	transform: rotate(-9deg);
+}
+
+.hBFS{
+	position: relative;
+	top:380px;
+	right: 200px;
+	transform: rotate(-15deg);
+}
+
+.hBSS{
+	position:relative;
+	bottom:50px;
+}
+
+.hBSF{
+	position:absolute;
+	left:90px;
+	top:-170px;
+}
+
+.inkFirstBottom{
+	position: absolute;
+	animation: SlideIn1 1.6s;
+}
+@keyframes SlideIn1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inkSecondBottom{
+	position: absolute;
+	animation: SlideIn2 1.6s;
+}
+@keyframes SlideIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inkFirstDrippingBottom{
+	position: absolute;
+	top:150px;}
+
+
+.inkSecondDrippingBottom{
+	position: absolute;
+	z-index: 3;
+}
+
+.Top{
+	position: relative;
+	height: 1000px
+}
+
+.mainImg{
+	position: absolute;
+	top:540px;
+	right: 1900px;
+	width: 50px;
+	z-index: 0;
+}
+
+.mainLogo{
+	position: absolute;
+	top:300px;
+	left:750px;
+	height: 100px;
+	z-index: 1;
+}
+
+.mainLogo img {
+	padding-left: 100px;
+}
+
+.mainLogo p {
+	font-size: 30px;
+	margin-top: 0;
+	animation: SlideIn10 1.6s 2.0s backwards;
+}
+@keyframes SlideIn10 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Animation{
+	height: 1000px;
+}
+
+.kame1{
+	position:absolute;
+	left:200px;
+	top:1600px;
+}
+
+.Animation p {
+	text-align: center;
+	margin-top: 500px;
+	font-size: 100px;
+		
+}
+
+.mainAnimation{
+	position:relative;
+	top:400px;
+	left:900px;
+}
+
+.lightInk{
+	position: absolute;
+	top:150px;
+	left:150px;
+}
+
+.mainFoot{
+	position:relative;
+	left:300px;
+}
+
+.foot2{
+	position:absolute;
+	top:250px;
+	left:150px;
+}
+
+.foot3{
+	position:absolute;
+	top:500px;
+	left:300px;
+}
+
+.foot4{
+	position:absolute;
+	top:750px;
+	left:400px;
+}
+
+.foot5{
+	position:absolute;
+	top:1000px;
+	left:550px;
+}
+
+.Service{
+	text-align: center;
+}
+
+.Service h2 {
+	font-size: 100px;
+}
+
+.serviceIntroduction {
+	font-family:'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+	margin-top: 100px;
+	margin-left: 620px;
+	width:700px;
+	font-size:18px;
+	line-height: 40px;
+	text-align: left;
+}
+
+.serviceIntroduction span{
+	font-family: 'Spinnaker', sans-serif;
+	width:1010px;
+	border-bottom: #7E629C 0.3em solid;
+	font-size:29px;
+	line-height: 60px;
+}
+
+.ServiceLogo p {
+	margin-top: 0;
+	font-size: 50px;
+}
+
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.osawa{
+	float:left;
+	margin-top: 50px;
+	margin-left: 750px;
+	padding-right: 50px;
+	font-size: 30px;
+}
+
+.akiyama{
+	float:left;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.serviceSns i {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-right: 100px;
+	padding-left: 100px
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.btn,
+a.btn,
+button.btn {
+  margin-top: 100px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color:#2A2A2A;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #eb6100;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #2A2A2A;
+  border-radius: 100% 80px / 80px 100%;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+.btn-malformation--pastel {
+  background: #fca1a1;
+  background: -webkit-linear-gradient(-45deg, #fca1a1 40%, #fcfc5d 100%);
+  background: -webkit-linear-gradient(315deg, #fca1a1 40%, #fcfc5d 100%);
+  background: linear-gradient(135deg, #fca1a1 40%, #fcfc5d 100%);
+  -webkit-box-shadow: 30px 10px 0 #fefeb3;
+  box-shadow: 30px 10px 0 #fefeb3;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fca1a1', endColorstr='#fcfc5d', GradientType=1);
+}
+
+.serviceSection{
+	margin-top: 100px;
+}
+
+.cording,
+.movie,
+.design1{
+	float: left;
+	padding-left: 250px;
+	width:200px;
+}
+
+.cordingChara{
+	margin-left: 240px;
+	margin-top: 70px;
+}
+
+.movieChara{
+	margin-left: 120px;
+	margin-top: 170px;
+}
+
+.designChara{
+	margin-left: 220px;
+	margin-top: 80px;
+}
+
+.cording h3,
+.movie h3,
+.design1 h3{
+	position: relative;
+	top:120px;
+	left:175px;
+	font-size: 30px;
+}
+
+.bo{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.cordingBox,
+.cordingChara,
+.movieBox,
+.movieChara,
+.designBox,
+.designChara{
+	position:absolute;
+}
+
+.serviceSection p {
+	float:left;
+	margin-top: 250px;
+	margin-left: 90px;
+	width:400px;
+	font-family:'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.workHeader{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.workHeader img{
+	float:left;
+	margin-left: 700px;
+}
+
+.workHeader h2{
+	float:left;
+	font-size: 60px;
+	margin-bottom: 0;
+	border-bottom: medium solid;
+}
+
+.workMain {
+	position:relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 幅3等分 */
+    grid-template-rows: 300px 300px; /* 100pxの2行 */
+    grid-gap: 50px; /* 隙間10px */
+	margin:50px 50px 50px 50px;
+	z-index: 20;
+}
+
+.workMain > div {
+    border-radius: 5px;
+    background: #C27594;
+    padding: 1em;
+}
+
+.mainFoot2{
+	position:relative;
+	transform: rotate(10deg);
+	top:-1100px;
+	left:900px;
+	z-index: 10;
+}
+
+.foot6{
+	position: absolute;
+	top:1250px;
+	right:900px;
+}
+
+.foot7{
+	position: absolute;
+	top:1550px;
+	right:800px;
+}
+
+.foot8{
+	position: absolute;
+	top:1800px;
+	right:700px;
+}
+
+.headerBottom2{
+	position:relative;
+	top:300px;
+	z-index: 0;
+}
+
+.headerBottomFirst2{
+	position: relative;
+	top:30px;
+	right: 760px;
+	transform: rotate(-deg);
+	z-index: 1;
+}
+
+.headerBottomSecond2{
+	position: relative;
+	bottom:500px;
+	right: 600px;
+	z-index: 0;
+}
+
+.hBFF2{
+	position: relative;
+	bottom:150px;
+	transform: rotate(-7deg);
+}
+
+.hBFS2{
+	position: relative;
+	top:500px;
+	right: 100px;
+	transform: rotate(-15deg);
+}
+
+.hBSS2{
+	position:relative;
+}
+
+.hBSF2{
+	position:relative;
+	bottom:300px;
+	left:160px;
+}
+
+.inkFirstBottom2{
+	position: absolute;
+	animation: SlideIn1 1.6s;
+}
+@keyframes SlideIn1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inkSecondBottom{
+	position: absolute;
+	animation: SlideIn2 1.6s;
+}
+@keyframes SlideIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inkFirstDrippingBottom2{
+	position: absolute;
+	top:150px;
+	animation: SlideIn6 1.6s 5s backwards;
+	z-index: 0;
+}
+@keyframes SlideIn6 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.inkSecondDrippingBottom2{
+	position: absolute;
+	animation: SlideIn7 1.6s 4.5s backwards;
+	z-index: 3;
+}
+@keyframes SlideIn7 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nana{
+	position:absolute;
+	left:100px;
+	bottom: 1540px;
+	transform: rotate(-2deg);
+}
+
+.bird{
+	position: absolute;
+	top:610px;
+	right:200px;
+}
+
+.enquiry{
+	position: relative;
+	margin-left: 600px;
+	margin-top: 300px;
+}
+
+@media screen and (max-width : 1601px ){
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 130px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background:#2d3c64;
+  font-size: 18px;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #2d3c64;
+  font-size: 18px;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.5em;
+  font-size: 30px;
+  border: none;  /* 枠線を消す */
+  outline: none; /* クリックしたときに表示される枠線を消す */
+  background: transparent; /* 背景の灰色を消す */
+}
+.Form-Btn::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.Form-Btn:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (max-width : 1601px ){
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+.mainFoot3{
+	position: relative;
+	bottom:300px;
+	right:100px;
+	transform: rotate(90deg);
+	z-index: 0;
+}
+
+
+footer {
+  width:100vw;
+  bottom:0px
+}
+footer div {
+  background-color:#4478e3;
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+}
+svg {
+  width:100%;
+}
+.arrow {
+  stroke-width: .3px;
+  stroke:#fff;
+}
+.topball {
+  animation: ball 1.5s ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  animation-delay: 0.3s;
+  cursor:pointer;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: #C27594;
+}
+.drop {
+  fill: transparent;
+  animation: drop 5s ease infinite normal;
+  stroke: #C27594;
+  stroke-width:0.5;
+  opacity:.6; 
+  transform: translateY(80%);
+}
+.drop1 {
+  transform-origin: 20px 3px;
+}
+.drop2 {
+  animation-delay: 3s;
+  animation-duration:3s;
+  transform-origin: 25px 3px;
+}
+.drop3 {
+  animation-delay: -2s;
+  animation-duration:3.4s;
+  transform-origin: 16px 3px;
+}
+.gooeff {
+    filter: url(#goo);
+}
+#wave2 {
+  animation-duration:5s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity:.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(80%); 
+    opacity:.6; 
+  }
+  80% {
+    transform: translateY(80%); 
+    opacity:.6; 
+  }
+  90% { 
+    transform: translateY(10%) ; 
+    opacity:.6; 
+  }
+  100% { 
+    transform: translateY(0%) scale(1.5);  
+    stroke-width:0.2;
+    opacity:0; 
+  }
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
+@keyframes ball {
+  to {transform: translateY(20%);}
+}
+
+.foot-wrap .menu-left, .menu-center, .menu-right {
+    display: inline-block;
+    width: 20%;
+    margin: 50px auto;
+}
+
+.foot-wrap ul {
+    list-style: none;
+    padding: 0;
+    line-height:40px;
+	background-color: #C27594;
+}
+
+.foot-wrap {
+    background-color: #C27594;
+    color: #fff;
+    text-align: center;
+}
+
+.foot-wrap h3 {
+    border-bottom: 3px solid #2ac5b3;
+    padding: 10px;
+	font-size: 30px;
+}
+
+.foot-wrap a {
+    text-decoration: none;
+    color: #fff;
+	font-size: 25px;
+}
+
+.foot-wrap a:hover {
+    color: deeppink;
+}
+
+.foot-wrap .cmark {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    color: gray;
+}
+
+@media screen and (max-width: 900px) {
+    .foot-wrap .menu-left, .menu-center, .menu-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .foot-wrap .cpr {
+        display: inline;
+    }
+}
+
+
+
+.workMain2 {
+	position:relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 幅3等分 */
+    grid-template-rows: 300px 300px; /* 100pxの2行 */
+    grid-gap: 50px; /* 隙間10px */
+	margin:300px 50px 50px 50px;
+	z-index: 20;
+}
+
+.workMain2 > div {
+    border-radius: 5px;
+    background: #C27594;
+    padding: 1em;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain2 > div:hover {
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s;
+}
+
+
+.workMain2 img{
+	width:100%;
+	height: 100%;
+	color: #fff;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain2 img:hover {
+	transform:scale(1.12,1.12);
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s,width 1s,height 1s,transform 1s;
+}
+
+.body2{
+	background-color: #FFE2FC;
+}
+
+.design {
+	position: relative;
+	top:100px;
+	left:630px;
+	z-index: 100;
+	animation: fadeIn4 3s 4s backwards;
+}
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.eye1{
+	position:absolute;
+	left:80px;
+}
+
+.eye2{
+	position:absolute;
+	left:400px;
+}
+
+.design h2{
+	position: absolute;
+	top:0px;
+	right:1515px;
+	font-size: 50px;
+	border-bottom: 1em solid;
+}
+
+.workMain3 {
+	position:relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* 幅3等分 */
+    grid-template-rows: 600px ; /* 100pxの2行 */
+    grid-gap: 30px; /* 隙間10px */
+	margin:340px 50px 50px 50px;
+	z-index: 20;
+}
+
+.workMain3 > div {
+    border-radius: 5px;
+    background: #C27594;
+    padding: 1em;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain3 > div:hover {
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s;
+}
+
+
+.workMain3 img{
+	width:100%;
+	height: 100%;
+	color: #fff;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain3 img:hover {
+	transform:scale(1.15,1.08);
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s,width 1s,height 1s,transform 1s;
+}
+
+.workMain3 h2{
+	position:absolute;
+	bottom:580px;
+}
+
+.body3{
+	background-color: #E2E6FF;
+}
+
+.wani{
+	position: absolute;
+	top:220px;
+	left:200px;
+}
+
+.blog {
+	position: relative;
+	top:100px;
+	left:630px;
+	z-index: 100;
+	animation: fadeIn4 3s 4s backwards;
+}
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.eye1{
+	position:absolute;
+	left:80px;
+}
+
+.eye2{
+	position:absolute;
+	left:400px;
+}
+
+.blog h2{
+	position: absolute;
+	top:0px;
+	right:1515px;
+	font-size: 50px;
+	border-bottom: 1em solid;
+}
+
+.workMain4 {
+	position:relative;
+    display: grid;
+    grid-template-columns: 1fr; /* 幅3等分 */
+    grid-template-rows:  ; /* 100pxの2行 */
+    grid-gap: 200px; /* 隙間10px */
+	margin:500px 500px 500px 500px;
+	z-index: 20;
+}
+
+.workMain4 > div {
+    border-radius: 5px;
+    background: #C27594;
+    padding: 1em;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain4 > div:hover {
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s;
+}
+
+
+.workMain4 img{
+	width:100%;
+	height: 100%;
+	color: #fff;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
+.workMain4 img:hover {
+	transform:scale(1.0,1.0);
+  background-color: #333;
+  border-radius: 100px;
+  transition: background-color 1s, border-radius 1s,width 1s,height 1s,transform 1s;
+}
+
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, -150px);
+	transition : all 1500ms 500ms;
+	}
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.leftSlidein {
+	opacity : 0.1;
+	transform : translate(-100px, 0px);
+	transition : all 3000ms ;
+	}
+
+/* 画面内に入った状態 */
+.leftSlidein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.fastFadein {
+	opacity : 0;
+	transform : translate(0px, 0px);
+	transition : all 0ms 500ms;
+	}
+
+/* 画面内に入った状態 */
+.fastFadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.foot {
+	opacity : 0;
+	transform : translate(0px, 0px);
+	transition : all 3000ms 300ms;
+	}
+
+/* 画面内に入った状態 */
+.foot.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.trans{
+	position:relative;
+	transform: rotate(90deg);
+	right:1050px;
+}
+
+.rightSlidein {
+	opacity : 0;
+	transform : translate(200px, 0px);
+	transition : all 3000ms 0ms;
+	}
+
+/* 画面内に入った状態 */
+.rightSlidein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.inkLeftin {
+	opacity : 0;
+	transform : translate(1000px, 0px);
+	transition : all 1000ms 0ms;
+	}
+
+/* 画面内に入った状態 */
+.inkLeftin.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.inkRightin {
+	opacity : 0;
+	transform : translate(-1000px, 0px);
+	transition : all 1000ms 0ms;
+	}
+
+.inkRightin.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
+.ink{
+	transform: rotate(-8deg)
+}
